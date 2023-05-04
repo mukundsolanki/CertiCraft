@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.drag-image{
+    border: 1px dashed #fff;
+    width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    font-weight:400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .drag-image.active{
+    border: 2px solid #fff;
+  }
+  .drag-image .icon{
+    font-size: 30px;
+    color: #fff;
+  }
+  .drag-image h6{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+  }
+  .drag-image span{
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    margin: 10px 0 15px 0;
+  }
+  .drag-image button{
+    padding: 10px 25px;
+    font-size: 14px; 
+    font-weight: 300;
+    border: none;
+    outline: none;
+    background:transparent;
+    color: #fff;
+    border:1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:all 0.5s;
+  }
+  
+  .drag-image button:hover{
+      background-color:#fff;
+      color:red;
+  }
+  
+  .drag-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+.bottom{
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+.bottom img{
+    height: 350px;
+    padding: 10px;
+}
+
+.bottom h1{
+    font-size: 40px;
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 2px;
+} 

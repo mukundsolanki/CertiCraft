@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#background {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* #background h1 {
+  font-size: 75px;
+  text-align: center;
+  font-family: 'BenchNine', sans-serif;
+  font-weight: 300;
+} */
+
+#background p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.certificates {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+footer {
+  height: 50px;
+  text-align: center;
+  text-shadow: 2px 2px 40px black;
+  font-size: 20px;
+}

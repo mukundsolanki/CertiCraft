@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: aqua;
+    height: 100vh;
+    border: 5px solid red;
+}
+
+.slideshow{
+    height: 70%;
+    border: 2px solid orange;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards h1{
+    text-align: center;
+}
+
+.cards img{
+    height: 381px;
+}
+
+.get{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+input[type=text]{
+    height: 30px;
+    border-radius:10px;
+    /* box-shadow: 20px; */
+
+/* } */
+
+/* button{
+    display: block;
+    margin:auto;
+    margin-top: 30px;
+    height: 30px;
+    width: 60px;
+}
+/*  */
+
+.bottom{
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+.bottom img{
+    height: 350px;
+    padding: 10px;
+}
+
+.bottom h1{
+    font-size: 40px;
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 2px;
+} 

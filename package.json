@@ -1,0 +1,15 @@
+{
+  "name": "certificate-generator",
+  "version": "1.0.0",
+  "description": "This package is developed for CertiCarft-A website for certificate generator using UiPath Automation",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Mukund Solanki",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
